@@ -1,0 +1,14 @@
+checkpoints/
+data/
+models/onnx/
+models/ncnn/
+assets/verification/
+results/
+Depth-Anything-V2/
+__pycache__/
+*.pyc
+*.pth
+*.onnx
+*.bin
+*.param
+.env

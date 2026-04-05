@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-03-30T14:13:16.125069",
+  "device": "cpu",
+  "dataset": "Test Images",
+  "pytorch": {
+    "time_ms": 2210.50705909729,
+    "fps": 0.45238489326895537
+  },
+  "onnx_fp32": {
+    "time_ms": 807.0112466812134,
+    "fps": 1.2391401038243786,
+    "speedup": 2.739127946714338
+  },
+  "onnx_int8": {
+    "time_ms": 873.256778717041,
+    "fps": 1.1451385484452417,
+    "speedup": 2.531336844982631
+  },
+  "baseline_comparison": {
+    "pytorch_time": 2579.29,
+    "onnx_fp32_time": 281.07,
+    "onnx_int8_time": 241.14,
+    "onnx_fp32_speedup_target": 9.18,
+    "onnx_int8_speedup_target": 10.7
+  }
+}

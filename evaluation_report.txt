@@ -1,0 +1,17 @@
+================================================================================
+DEPTH ESTIMATION MODEL EVALUATION REPORT
+================================================================================
+
+SYSTEM INFO:
+  Timestamp: 2026-03-30T14:13:16.125069
+  Device: cpu
+  Dataset: Test Images
+
+RESULTS:
+  PyTorch:        2210.51 ms (0.45 FPS)
+  ONNX FP32:      807.01 ms (1.24 FPS) - Speedup: 2.74x
+  ONNX INT8:      873.26 ms (1.15 FPS) - Speedup: 2.53x
+
+COMPETITIVE ANALYSIS vs RESEARCHER A:
+  Target ONNX FP32 speedup: 9.18x
+  Your ONNX FP32 speedup:   2.74x
